@@ -1,0 +1,24 @@
+{
+  "name": "phantasyland",
+  "description": "Specification for interoperability of common algebraic structures in PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gerardo Munguia",
+      "email": "gerardo.munguia.hoyo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "PhantasyLand\\": "./src"
+    }
+  }
+}
